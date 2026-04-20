@@ -1,15 +1,8 @@
-# octocovs
-
-Code metrics (coverage, code-to-test ratio, test execution time) and badges for
-[to4iki](https://github.com/to4iki)'s repositories, aggregated using
-[octocov](https://github.com/k1LoW/octocov) central mode.
-
-The table below is regenerated automatically by the `Collect` workflow
-(scheduled daily + on-demand via `workflow_dispatch`).
-
 ## Repositories
 
-<!-- octocov will overwrite this section on each run -->
+| Repository | Coverage | Code to Test Ratio | Time Execution Time | Badges |
+| --- | --- | --- | --- | --- |
+| [to4iki/Store](https://github.com/to4iki/Store) | 92.1% | 1:3.8 | 17s | ![to4iki/Store](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/coverage.svg) ![to4iki/Store](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/ratio.svg) ![to4iki/Store](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/time.svg) <details><summary>Copy status badge markdown</summary>```![Coverage](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/coverage.svg)```<br>```![Code to Test Ratio](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/ratio.svg)```<br>```![Test Execution Time](https://raw.githubusercontent.com/to4iki/octocovs/main/badges/to4iki/Store/time.svg)```</details> |
 
 ---
 
