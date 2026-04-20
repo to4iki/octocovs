@@ -1,0 +1,25 @@
+name: Collect
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 15 * * *'
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: central-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Collect metrics via octocov central mode
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: k1LoW/octocov-action@v1

@@ -1,0 +1,10 @@
+timeout: 60sec
+central:
+  reports:
+    datastores:
+      - artifact://to4iki/Store
+  badges:
+    datastores:
+      - local://badges
+  push:
+    enable: true
